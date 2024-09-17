@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    background-image: url("C:\Users\gveer\Downloads\bg-11-full.jpg"); /* Path to your image */
+    background-size: cover; /* Resize the image to cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+header {
+    background-color:green;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-style:italic;
+    color: white;
+
+}
+p{
+    padding: 10px;
+    font-style:italic;
+    color:white;
+}
+
+h2{
+    color:whitesmoke;
+    font-style: italic;
+}
+h3{
+    color: floralwhite;
+    font-style:Rene Bieder;
+    font-style: italic;
+}
+
+  photo-grid{
+    transform: translate(20px,20px);
+ }
+
+
+.countdown {
+    margin: 20px;
+    background-color:light red;
+    color: ghostwhite;
+    font-style: italic;
+    color: yellow;
+    "animate___"
+}
+
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    resize: 50px;
+    transform: translate(20px,20px);
+}
+
+.photo-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 30px;
+    border-radius: 35cm;
+    transform: translate(20px,20px);
+}
+
+footer {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    position: middle;
+    bottom: 0;
+    width: 100%;
+}
+background-image{
+     background-image: url("C:\Users\gveer\Downloads\bg-11-full.jpg");
+}
+div class={
+    transform: translate(20px,20px);
+}
+
